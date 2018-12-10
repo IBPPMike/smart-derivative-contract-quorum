@@ -13,7 +13,7 @@ There is another  [README] which is a predecessor of the current one and which d
 In the first two parts the setup of AWS instances as a virtual private cloud (VPC) is sketched, the third part deals with the Quorum setup out of docker images on a cloud like that.
 The tool to setup a Quorum blockchain used here is Quorum-Maker which provides for easy node administration and, in addition, for observing the nodes in a browser Web UI. 
 
-The example Quorum blockchain to be constructed here adheres to this ![SDCBlockchain](./SDCBlockchain.PNG)
+The example Quorum blockchain to be constructed here adheres to this ![SDCBlockchain](./SDCBlockchain.PNG).
 
 
 ## Getting Started
@@ -29,16 +29,13 @@ As instance type choose _t2.medium_ which is __NOT__ free, the free version _t2.
 in the second part and then generate an image of your instance which in turn can be launched to the effect that all required packages are available automatically).
 
 Oherwise you can choose defaults. Particular attention has to be paid to the configuration of the security group. This cannot be described in detail here, the reader must address this
-topic by himself. However, a [Security Group] is shown here which shows the configuration of the lab AWS prototype:
-
-[Security Group]:  ./SecurityGroup.PNG
+topic by himself. However, a ![Security Group](./SecurityGroup.PNG) is shown here which shows the configuration of the lab AWS prototype.
   
 Of course, you must take care that the SSH port is not open to the world. The Ports withe 22000 number range are important for Quorum-Maker, the source addresses shown in the picture
 require improvement.
 
-Finally, we show a [screenshot] of the AWS view of the configured instances:
+Finally, we show a ![AWS_InstanceView](./AWS_InstanceView.PNG) of the AWS view of the configured instances.
 
-[screenshot]:  ./AWS_InstanceView.PNG
    
  The instance names may be attached to the instances from within this view.
  
