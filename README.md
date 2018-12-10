@@ -15,7 +15,7 @@ The tool to setup a Quorum blockchain used here is Quorum-Maker which provides f
 
 The example Quorum blockchain to be constructed here adheres to this [picture].
            
-[picture]: ./SDCBlockchain.png
+[picture]: ./SDCBlockchain.PNG
 
 
 ## Getting Started
@@ -33,14 +33,14 @@ in the second part and then generate an image of your instance which in turn can
 Oherwise you can choose defaults. Particular attention has to be paid to the configuration of the security group. This cannot be described in detail here, the reader must address this
 topic by himself. However, a [Security Group] is shown here which shows the configuration of the lab AWS prototype:
 
-[Security Group]:  ./SecurityGroup.png
+[Security Group]:  ./SecurityGroup.PNG
   
 Of course, you must take care that the SSH port is not open to the world. The Ports withe 22000 number range are important for Quorum-Maker, the source addresses shown in the picture
 require improvement.
 
 Finally, we show a [screenshot] of the AWS view of the configured instances:
 
-[screenshot]:  ./AWS_InstanceView.png
+[screenshot]:  ./AWS_InstanceView.PNG
    
  The instance names may be attached to the instances from within this view.
  
