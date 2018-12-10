@@ -13,9 +13,7 @@ There is another  [README] which is a predecessor of the current one and which d
 In the first two parts the setup of AWS instances as a virtual private cloud (VPC) is sketched, the third part deals with the Quorum setup out of docker images on a cloud like that.
 The tool to setup a Quorum blockchain used here is Quorum-Maker which provides for easy node administration and, in addition, for observing the nodes in a browser Web UI. 
 
-The example Quorum blockchain to be constructed here adheres to this [picture].
-           
-[picture]: ./SDCBlockchain.PNG
+The example Quorum blockchain to be constructed here adheres to this ![SDCBlockchain] (./SDCBlockchain.PNG)
 
 
 ## Getting Started
